@@ -68,7 +68,7 @@
 - **Technical planning** - Same as phase 1
 - **Implementation:** The main game finally begins where we will be implementing the phase. Small tickets will be created to make sure the implementation is tested along with the development. The first phase will take some tiem to setup the initial boilerplate. This can cause the time needed for this phase to be more that the other ones. The time estimate for this will heavily rely on the technology selected and the architecture chosen. But from the overview it looks like that a rough estimate of 7-8 months will be needed for the first phase. Please note the implementation will also include writing tests at each and every step and testing each path of execution properly.
 - **Refinement:** Same as phase 2.
-- **Time frame** - A total of about 8-9 months will be taken for implementing the phase 3 fully. The time frame is more as this phase will take the code work outside of Qbil Trade. In short, this phase will mark the start of the UIs of Qbil Hub. The Hub inbox will also take shape in this phase.
+- **Time frame** - A total of about 8-9 months will be taken for implementing the phase 3 fully.----------------------------------->>>>>>
 
 ## Phase 4 — Algorithm Refinement & Advanced Features
 - **What we understood about the phase** - Let users explore the Hub and provide feedback. In addition to implementing user feedback, we will also need to perfect the matching algo and try to improve and test it on some real world data sets. This has to be an iterative process.
