@@ -17,7 +17,7 @@
 - For the rest of process the time estimation is in the individual phases below. Please note all the estimations are subject to change on the basis of the R&D done, especially for the mapping step.
 
 ## STEP 1(B) — UI/UX Design
-- We have a small POC made by Mark and in the first 2 weeks of R&D the POC made by our team will be submitted to Sakib to provide UI templates. The templates will be for the whole of the project(all phases included). The will go in parallel to the R&D phase. The templates will be later used during implementation and will also be taken into account for the technical decisions. The UI will be analysed for constriants and any sharp edges where we might need discussions and alterations.
+- We have a small POC made by Mark and in the first 2 weeks of R&D the POC made by our team will be submitted to UI/UX team to provide UI templates. The templates will be for the whole of the project(all phases included). The will go in parallel to the R&D phase. The templates will be later used during implementation and will also be taken into account for the technical decisions. The UI will be analysed for constriants and any sharp edges where we might need discussions and alterations.
 
 ## Step 2 — Documentation and R&D result publishing
 - This is of-course a parallel process, that will run alongside with the R&D. The whole of the R&D will be documented to make sure we can revisit any decision/step and iterate/improve accordingly.
