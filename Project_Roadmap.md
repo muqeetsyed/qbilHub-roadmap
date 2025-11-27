@@ -1,6 +1,6 @@
 # Project Roadmap (One-Page Overview)
 
-## STEP 1 — Initial R&D
+## STEP 1(A) — Initial R&D
 - **THE GAME PLAN**
 - The initial R&D will include the feasibility study of the Qbil Hub. Before going technical, we will need to check the main requirements. What the stakeholders are expecting and if all the requirements are clear. That will start with a simple POC for visualization. The POC is entirely to gain a gist of the main requirements and to make sure developers and stakeholders are aligned towards a single goal. Also, we should make sure the POC takes minimum possible time. The POC will be a part of R&D for a change as it will help us to actually how the stuff will paint out.
 - In parallel the heart of Qbil hub will be explored. The heart being the mapping of data across customers. The nature of data is very much peculiar. The customers don't use the same terminology for identifying main root data elements. One of the main challenges is the product map. The products are identified across different customer pairs in a very different way. For example between FF and MWH we tracked some contracts and we came across the fact that they track orders/products using unloading reference on orderlines. These and other customer specific trends need to be identified and taken into account.
@@ -16,6 +16,8 @@
 - The POC implementation will be a 2 week job - ~10 days
 - For the rest of process the time estimation is in the individual phases below. Please note all the estimations are subject to change on the basis of the R&D done, especially for the mapping step.
 
+## STEP 1(B) — UI/UX Design
+- We have a small POC made by Mark and in the first 2 weeks of R&D the POC made by our team will be submitted to Arshan to provide UI templates. The templates will be for the whole of the project(all phases included). The will go in parallel to the R&D phase. The templates will be later used during implementation and will also be taken into account for the technical decisions. The UI will be analysed for constriants and any sharp edges where we might need discussions and alterations.
 
 ## Step 2 — Documentation and R&D result publishing
 - This is of-course a parallel process, that will run alongside with the R&D. The whole of the R&D will be documented to make sure we can revisit any decision/step and iterate/improve accordingly.
@@ -77,11 +79,11 @@
     2. The document sending and reception capabilities will be implemented. The documents will only be sent and received by the admins. In additions they can view the PDF previews of the documents sent/received.
 - **R&D:** Basic requirement gathering for the phase. The R&D will be done already, this phase is just to get a gist and gather all the stuff up for the phase. This will take a week.
 - **Discussions and planning:** Non-technical discussions and plan out the tickets that  will be created for implemented this thing and plan the sprint break up accordingly. This will take about a week
-- **Prototype:** A working prototype of basic admin UI for hub setup + simulated transmission. The prototype will be kept simple and will be discussed with Sakib and Kashif to finalize a UI and take fine care of the UX. This will be a 2-3 week process as there can be iterations. The prototype creation is an important step to be able to know what we are going to get at the end of the phase and to figure out any UI/UX level constraints that can arise over time and delay the actual implementation process.
+- **Prototype:** A working prototype of basic admin UI for hub setup + simulated transmission. The prototype will follow the UI templates provided by Arshan and will be created taking fine care of the UX. This will be a 2-3 week process as there can be iterations. The prototype creation is an important step to be able to know what we are going to get at the end of the phase and to figure out any UI/UX level constraints that can arise over time and delay the actual implementation process.
 - **Technical planning** - Planning out the main work flow technically. The technical discussions will ofcourse be already taken and finalized, but there is still some stuff that will be done here. This will include inner details of implementation and will be done within the team exclusively. External help will be taken as and when needed. This will be a one week process.
 - **Implementation:** The main game finally begins where we will be implementing the phase. Small tickets will be created to make sure the implementation is tested along with the development. The first phase will take some time to setup the initial boilerplate. This can cause the time needed for this phase to be more that the other ones. The time estimate for this will heavily rely on the technology selected and the architecture chosen. But from the overview it looks like that a rough estimate of 4-5 months will be needed for the first phase. Please note the implementation will also include writing tests at each and every step and testing each path of execution properly.
 - **Refinement:** Code cleanup, reliability improvements, security hardening . This will be a final step in the implementation and can take a couple of weeks.
-- **Feedback:** Once the phase is implemented, we will need to get feedback from the customers to make sure we are on the right track. This will help us to make sure we are building the HUB in the right direction and also help us to identify any gaps that we might have missed. This will be a one month process.
+- **Feedback:** Once the phase is implemented, we will need to get feedback from the customers to make sure we are on the right track. That will inject some agility in the project. This will help us to make sure we are building the HUB in the right direction and also help us to identify any gaps that we might have missed. This will be a one month process.
 - **Time frame** - A total of about 7-8 months will be taken for implementing the phase 1 fully.
 
 
@@ -106,7 +108,7 @@
 - **Implementation:** The main game finally begins where we will be implementing the phase. Small tickets will be created to make sure the implementation is tested along with the development. The first phase will take some time to setup the initial boilerplate. This can cause the time needed for this phase to be more that the other ones. The time estimate for this will heavily rely on the technology selected and the architecture chosen. But from the overview it looks like that a rough estimate of 7-8 months will be needed for the first phase. Please note the implementation will also include writing tests at each and every step and testing each path of execution properly.
 - **Refinement:** Same as phase 2.
 - **Feedback:** Same as phase 1.
-- **Time frame** - A total of about 8-9 months will be taken for implementing the phase 3 fully.----------------------------------->>>>>>
+- **Time frame** - A total of about 8-9 months will be taken for implementing the phase 3 fully. The time taken in this phase will also include testing the mapping properly across real world customer data sets.
 
 #### Phase 4 — Algorithm Refinement & Advanced Features
 - **What we understood about the phase** - Let users explore the Hub and provide feedback. In addition to implementing user feedback, we will also need to perfect the matching algo and try to improve and test it on some real world data sets. This has to be an iterative process.
