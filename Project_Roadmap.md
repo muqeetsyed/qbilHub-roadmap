@@ -1,4 +1,4 @@
-# Project Roadmap (One-Page Overview)
+# Project Roadmap
 
 ## STEP 1(A) — Initial R&D
 - **THE GAME PLAN**
@@ -69,6 +69,11 @@
 - Depending on the need we can communicate with the respective teams and make plans accordingly.
 - This phase will also include creating initial technical document to present to other teams to make sure they are in line with the HUB.
 - **Time frame** - This will be a one week process.
+
+## Step 5-alpha - Implementation shuffling 
+- Once we are done with the non-technical stuff, there comes an optional step.
+- With all the technical and non-technical decisions taken, there might arise a possibility of shifting some stuff up or down the phases. This will be done in this pre-step 5 phase.
+- If any change in deliverables will be done, it will be first proposed to the stakeholders and after proper discussions, the change will be finalized and implemented accordingly
 
 ## Step 5 - Start of the fight
 - Once done with all the non-coding things, the implementation will begin. Lets walk through this phase by phase
