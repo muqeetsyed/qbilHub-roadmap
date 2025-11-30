@@ -32,35 +32,35 @@
 ### **Techniques & Technologies**
 
 1.  **Communication Between Tenants**
-    *   **REST API:**Use **API Platform** (a popular Symfony bundle) to build RESTful APIs.
-    *   **Alternative:**Symfony’s built-in HTTP Foundation and Serializer components for custom APIs.
+    *   **REST API**Use **API Platform** (a popular Symfony bundle) to build RESTful APIs.
+    *   **Alternative**:Symfony’s built-in HTTP Foundation and Serializer components for custom APIs.
 2.  **Data Transmission**
-    *   **Format:****JSON over HTTPS** (Symfony supports JSON serialization out of the box).
-    *   **Security:**Use Symfony’s security bundle to enforce HTTPS and secure endpoints.
+    *   **Format**:**JSON over HTTPS** (Symfony supports JSON serialization out of the box).
+    *   **Security**:Use Symfony’s security bundle to enforce HTTPS and secure endpoints.
 3.  **Document Previews**
-    *   **Frontend / Backend:**For PDF generation, use FPDF, DomPDF or Typst in PHP.
+    *   **Frontend / Backend**:For PDF generation, use FPDF, DomPDF or Typst in PHP.
 4.  **User Authentication and Authorization**
-    *   **Symfony Security Bundle:**For authentication, roles, and permissions.
-    *   **OAuth 2.0 / OpenID Connect:**Use **HWIOAuthBundle** or **knpuniversity/oauth2-client-bundle** for social login or SSO.
+    *   **Symfony Security Bundle**:For authentication, roles, and permissions.
+    *   **OAuth 2.0 / OpenID Connect**:Use **HWIOAuthBundle** or **knpuniversity/oauth2-client-bundle** for social login or SSO.
 5.  **Database**
     *   **Doctrine ORM** (default in Symfony) with **PostgreSQL** or **MySQL**.
-    *   **Migrations:**Use Doctrine Migrations for schema changes.
+    *   **Migrations**:Use Doctrine Migrations for schema changes.
 6.  **Rule-Based Engine Implementation**
-    *   **Custom PHP Classes:**Implement the rule engine as a set of Symfony services.
-    *   **Workflow Component:**Consider Symfony’s **Workflow Component** for state machines and rules.
-    *   **Expression Language:**Use Symfony’s **ExpressionLanguage** component for dynamic rule evaluation.
+    *   **Custom PHP Classes**:Implement the rule engine as a set of Symfony services.
+    *   **Workflow Component**:Consider Symfony’s **Workflow Component** for state machines and rules.
+    *   **Expression Language**:Use Symfony’s **ExpressionLanguage** component for dynamic rule evaluation.
 7.  **Machine Learning / Smart Mapping**
-    *   **PHP-ML:**For basic machine learning tasks in PHP.
-    *   **External ML Services:**For advanced ML, consider integrating with Python microservices (Flask/FastAPI) or cloud ML APIs (Google AI, AWS SageMaker) via REST.
+    *   **PHP-ML**:For basic machine learning tasks in PHP.
+    *   **External ML Services**:For advanced ML, consider integrating with Python microservices (Flask/FastAPI) or cloud ML APIs (Google AI, AWS SageMaker) via REST.
 8.  **Front-End Development**
     *   **Twig Templates** (Symfony default) for server-rendered pages.
     *   **Vue.js** or **React.js** for interactive UI (integrated via Webpack Encore).
 9.  **Background Processing**
-    *   **Symfony Messenger Component:**For handling asynchronous jobs and queues (supports RabbitMQ, Redis, etc.).
-    *   **Supervisor:**For managing background workers.
+    *   **Symfony Messenger Component**:For handling asynchronous jobs and queues (supports RabbitMQ, Redis, etc.).
+    *   **Supervisor**:For managing background workers.
 10. **Testing**
-    *   **PHPUnit:**For unit and integration testing.
-    *   **Behat:**For behavior-driven development (BDD).
+    *   **PHPUnit**:For unit and integration testing.
+    *   **Behat**:For behavior-driven development (BDD).
 
 - **Time frame** - This will be a two week process. This step could include exploring some technologies to check if it fits in for our needs and this can increase the frame by a day or two.
 
